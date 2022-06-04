@@ -18,12 +18,7 @@ body {
 
 button{
     margin-top: 40px;
-    margin-left: 57%;
-    outline: auto;
-    outline-style: round;
-    background-color: #5589e2;
-    color: white;
-    padding: 10px 30px;
+    margin-left: 64%;
 }
 
 h4{

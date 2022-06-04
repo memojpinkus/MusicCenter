@@ -1,0 +1,187 @@
+/* GLOBAL  */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* NAVIGATION AREA */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #152238;
+  height: 50px;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+nav > div > a {
+  margin: 1rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+nav > div > a:hover {
+  font-weight: 600;
+}
+
+nav > div > input[type="text"] {
+  padding: 6px;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 17px;
+  width: 40vw;
+  background-color: #152238;
+  color: white;
+}
+
+nav > div > input[type="text"]:focus {
+  outline: none;
+  transform: scale(1.1);
+}
+
+i {
+  color: white;
+}
+
+.hamburguer-menu {
+  display: none;
+}
+
+/* HERO SECTION */
+h1 {
+  text-align: center;
+  margin: 3rem 0;
+}
+.hero-section {
+  display: flex;
+
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-section div {
+  margin: 50px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay:hover {
+  opacity: 0.7;
+}
+img {
+  width: 300px;
+  height: auto;
+}
+
+/* ABOUT US SECTION */
+.aboutus-section {
+  margin-top: 200px;
+  margin-top: 300px;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.aboutus-image-container {
+  padding: 3rem;
+}
+
+.aboutus-image-container > img {
+  width: 600px;
+}
+
+.aboutus-info > p {
+  text-align: justify;
+  padding: 4rem;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 400px;
+  display: flex;
+  background-color: #152238;
+}
+
+.left {
+  padding: 3rem;
+  color: white;
+}
+
+.left > a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  margin: 1rem;
+}
+
+.mid {
+  padding: 3rem;
+  color: white;
+}
+
+.credits {
+  margin-top: 10rem;
+  margin-bottom: 0;
+}
+
+.right {
+  margin: 30px auto;
+}
+
+.right > input {
+  width: 90%;
+  height: 5vh;
+  padding: 6px;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 17px;
+  background-color: #152238;
+  color: white;
+}
+
+.right > button {
+  margin: 1rem;
+  width: 200px;
+  height: 50px;
+  background-color: #152238;
+  outline: none;
+  border: 1px solid white;
+  color: #ffff;
+}
+
+/* RESPONSIVE AREA */
+
+@media screen and (max-width: 925px) {
+  .search {
+    display: none;
+  }
+  .normal-menu {
+    display: none;
+  }
+
+  .hamburguer-menu {
+    padding: 3rem;
+    font-size: 1.5rem;
+    display: unset;
+  }
+
+  .aboutus-image-container {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+  }
+}

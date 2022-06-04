@@ -37,12 +37,3 @@ h4{
 img{
     width: 325px;
 }
-
-button{
-    outline: auto;
-    outline-style: round;
-    background-color: #5589e2;
-    color: white;
-    padding: 10px 30px;
-    margin-left: 25%;
-}

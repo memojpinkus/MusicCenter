@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div>
+        <a href="#">MUSIC CENTER</a>
+      </div>
+
+      <div class="hamburguer-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search.." />
+      </div>
+
+      <div class="normal-menu">
+        <a href="index.html  ">Home</a>
+        <a href="cart.html">Cart</a>
+        <a href="login.html">Login</a>
+      </div>
+    </nav>
+    <div class="main">
+      <h1>Shopping cart</h1>
+
+      <section class="shopping-cart">
+        <footer class="_grid cart-totals">
+          <div class="_column subtotal" id="subtotalCtr">
+            <div class="cart-totals-key">Subtotal</div>
+            <div class="cart-totals-value">$0.00</div>
+          </div>
+          <div class="_column shipping" id="shippingCtr">
+            <div class="cart-totals-key">Shipping</div>
+            <div class="cart-totals-value">$0.00</div>
+          </div>
+          <div class="_column taxes" id="taxesCtr">
+            <div class="cart-totals-key">Taxes (6%)</div>
+            <div class="cart-totals-value">$0.00</div>
+          </div>
+          <div class="_column total" id="totalCtr">
+            <div class="cart-totals-key">Total</div>
+            <div class="cart-totals-value">$0.00</div>
+          </div>
+          <div class="_column checkout">
+            <button class="_btn checkout-btn entypo-forward">Checkout</button>
+          </div>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
